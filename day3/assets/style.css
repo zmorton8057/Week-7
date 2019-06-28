@@ -1,0 +1,21 @@
+.header-style {
+    background: #4bbef8;
+    color: white;
+}
+
+.header-font {
+    font-size: 50px;
+}
+
+.secondary-font {
+    font-size: 20px;
+}
+
+.current-box {
+    border: solid 1px #4bbef8;
+}
+
+.current-header {
+    background: #4bbef8;
+    color: white;
+}

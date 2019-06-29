@@ -65,9 +65,9 @@ database.ref('employees').on('child_added', function (snapshot) {
 
   //Variable to push a row (<tr> </tr>) into the <tbody> #id
   $('#table-body').append("<tr> <th scope='row'>" + count /*Count of Rows based on # of Childs*/ + "</th> <td>" +
-  employee + "</td> <td>" + role + "</td> <td>" + startDate + "</td> <td>" + Math.ceil(months) + "</td> <td>" +
-  rate + "</td> <td>" + totalBilled +
-  "</td> </tr>")
+    employee + "</td> <td>" + role + "</td> <td>" + startDate + "</td> <td>" + Math.ceil(months) + "</td> <td>" +
+    rate + "</td> <td>" + totalBilled +
+    "</td> </tr>")
   count++
   console.log(`name: ${name}`)
   console.log(typeof name)
